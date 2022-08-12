@@ -82,7 +82,7 @@
                                     <div class="cta-button-icon"><i class="fas fa-phone-alt" aria-hidden="true"></i></div>
                                     <div class="cta-button-text">
                                         <?=$phone?>
-                                        <br><span class="font-weight-normal">Speak with a Licensed Agent</span>
+                                        <br><span>Speak with a Licensed Agent</span>
                                     </div>
                                 </div>
                             </div> <!-- col -->
