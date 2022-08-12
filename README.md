@@ -1,3 +1,3 @@
-#Youthful Hearts
+# Youthful Hearts
 
-##A custom theme built using WP Bootstrap Starter.
+## A custom theme built using WP Bootstrap Starter.
