@@ -17,8 +17,6 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 ?>
 
 <?php if (!is_page_template('blank-page.php') && !is_page_template('blank-page-with-container.php')) : ?>
-	</div><!-- .row -->
-	</div><!-- .container -->
 	</div><!-- #content -->
 	</div><!-- #page -->
 

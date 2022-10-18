@@ -11,8 +11,8 @@
  */
 
 ?>
-<?php 
-    $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_setting') : '1-800-123-1234'; 
+<?php
+$phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_setting') : '1-800-123-1234';
 ?>
 
 <!DOCTYPE html>
@@ -78,13 +78,15 @@
                                 ?>
                             </div> <!-- col -->
                             <div class="col-12 col-md-5 col-lg-4 py-1">
-                                <div class="cta-button text-white bg-color-dark">
-                                    <div class="cta-button-icon"><i class="fas fa-phone-alt" aria-hidden="true"></i></div>
-                                    <div class="cta-button-text">
-                                        <?=$phone?>
-                                        <br><span>Speak with a Licensed Agent</span>
+                                <a class="cta" href="tel:<?= $phone ?>">
+                                    <div class="cta-button text-white bg-color-dark">
+                                        <div class="cta-button-icon"><i class="fas fa-phone-alt" aria-hidden="true"></i></div>
+                                        <div class="cta-button-text">
+                                            <?= $phone ?>
+                                            <br><span>Speak with a Licensed Agent</span>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div> <!-- col -->
                         </nav>
                     </div> <!-- row -->
@@ -115,7 +117,10 @@
                     </div>
                 </div>
             <?php endif; ?>
-            <div id="content" class="site-content">
-                <div class="container">
-                    <div class="row">
+
+            <?php if (is_front_page()) : ?>
+                <div id="content" class="">
+                <?php else : ?>
+                    <div id="content" class="site-content">
                     <?php endif; ?>
+                <?php endif; ?>
