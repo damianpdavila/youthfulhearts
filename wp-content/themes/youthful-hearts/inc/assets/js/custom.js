@@ -244,12 +244,12 @@ function reformatDate(formData) {
  *
  */
 // If testing
-var in_testing = "Test_Lead=1&";
+// var in_testing = "Test_Lead=1&";
 // Normally
-// var in_testing = "";
+var in_testing = "";
 
 if (in_testing.length > 0) {
-    jQuery("#testing-notification").show();
+    jQuery(".testing-notification").show();
 }
 
 /**
@@ -300,4 +300,53 @@ jQuery("form.lead-capture").submit(function (e) {
 });
 
 
+/** 
+ *  Basic reveal on scroll animation.
+ * 
+ *  Apply class "reveal-in-viewport-container" to the container.
+ *  Apply class "reveal-in-viewport" to each element you want to reveal in the container.
+ *  Delay the reveal (beyond the scroll of course) by specifying a data-delay attribute on each element in milliseconds, e.g. data-delay="200"
+ * 
+ */
+
+function revealInViewportAnimation() {
+    // attach intersection observer to any riv containers
+    let iobserver = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting === true) {
+            revealInViewportAnimationElements(entries[0].target);
+        }
+    }, {threshold: 0.5})
+
+    iobserver.observe(document.querySelector('.reveal-in-viewport-container'))
+}
+function revealInViewportAnimationElements(container) {
+    let elems = container.querySelectorAll('.reveal-in-viewport');
+
+    elems.forEach((elem) => {
+        let delay = Number(elem.dataset.delay);
+        setTimeout(() => {
+            elem.classList.add('reveal');
+        }, delay)
+    })
+}
+
+
+window.onload = function () {
+
+    revealInViewportAnimation();
+    
+    setTimeout(() => {
+        document.querySelector('#hero .animated-header-wrapper.e-animated.e-hide-highlight').classList.remove('e-hide-highlight');
+    }, 1500);
+    setInterval(() => {
+        animateHeadline();
+    }, 5000);
+}
+function animateHeadline() {
+    console.log('animating...');
+    document.querySelector('#hero .animated-header-wrapper.e-animated').classList.add('e-hide-highlight');
+    setTimeout(() => {
+        document.querySelector('#hero .animated-header-wrapper.e-animated.e-hide-highlight').classList.remove('e-hide-highlight');
+    }, 1500)
+}
 
