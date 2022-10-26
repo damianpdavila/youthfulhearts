@@ -140,6 +140,7 @@ Tested up to: 6.0.1
 # Woocommerce
 # Footer
 # Utilities
+# Animations
 # Page-specific
 # Site-specific / Miscellaneous
 --------------------------------------------------------------*/
@@ -1331,11 +1332,15 @@ footer#colophon a {
     }
 }
 /*--------------------------------------------------------------
-# Utilities / Animations
+# Utilities
 --------------------------------------------------------------*/
 .hidden {
     display: none;
 }
+
+/*--------------------------------------------------------------
+# Animations
+--------------------------------------------------------------*/
 .animated-header-wrapper {
     overflow: visible;
     position: relative;
@@ -1351,10 +1356,6 @@ footer#colophon a {
     transform: translate(-50%, -50%);
     overflow: visible;
 }
-/* .animated-header-wrapper path {
-    stroke: var( --color-cta );
-    stroke-width: 12px;
-} */
 
 .animated-header-wrapper svg path {
   stroke: var( --color-cta );
@@ -1373,19 +1374,6 @@ footer#colophon a {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* .animated-header-wrapper svg path {
-  -webkit-animation: elementor-headline-dash forwards;
-  animation: elementor-headline-dash forwards;
-  -webkit-animation-duration: var(--animation-duration,1.2s);
-  animation-duration: var(--animation-duration,1.2s);
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-} */
-#hero .animated-header-wrapper {
-  --iteration-count: infinite;
-  --animation-duration: 1200ms;
-  --dynamic-text-color: #FFFFFF;
-}
 .animated-header-wrapper.e-animated svg path:nth-of-type(2) {
   -webkit-animation-delay: calc(var(--animation-duration, 1.2s) / 2);
   animation-delay: calc(var(--animation-duration, 1.2s) / 2);
@@ -1397,26 +1385,6 @@ footer#colophon a {
   animation: hide-highlight 0.4s forwards;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-}
-@-webkit-keyframes elementor-headline-dash {
-  0% {
-      stroke-dasharray: 0 1500;
-      opacity: 1;
-  }
-  to {
-      stroke-dasharray: 1500 1500;
-      opacity: 1;
-  }
-}
-@keyframes elementor-headline-dash {
-  0% {
-      stroke-dasharray: 0 1500;
-      opacity: 1;
-  }
-  to {
-      stroke-dasharray: 1500 1500;
-      opacity: 1;
-  }
 }
 @-webkit-keyframes hide-highlight {
   0% {

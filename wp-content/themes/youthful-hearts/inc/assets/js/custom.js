@@ -323,7 +323,13 @@ function revealInViewportAnimationElements(container) {
     let elems = container.querySelectorAll('.reveal-in-viewport');
 
     elems.forEach((elem) => {
-        let delay = Number(elem.dataset.delay);
+        let delay = 0;
+        try {
+            delay = Number(elem.dataset.delay);
+        } catch (e) {
+            delay = 0;
+        }
+        
         setTimeout(() => {
             elem.classList.add('reveal');
         }, delay)
@@ -335,18 +341,35 @@ window.onload = function () {
 
     revealInViewportAnimation();
     
+    // Delay a bit before drawing initial highlight
     setTimeout(() => {
-        document.querySelector('#hero .animated-header-wrapper.e-animated.e-hide-highlight').classList.remove('e-hide-highlight');
+        animateHeadlineOn();
     }, 1500);
+    // Iterate the highlighting
     setInterval(() => {
         animateHeadline();
     }, 5000);
 }
+
+/**
+ *  Headline highlight animation to draw a circle around a word.
+ *  Will remove the highlight, delay a bit, then re-draw based on the setInterval and setTimeout values.
+ * 
+ *  Apply classes animated-header-wrapper and e-animated to a container around the word to be highlighted.
+ *  Apply class animated-header to the word.
+ *  Adjust the selector if using multiple headline highlights on page.
+ * 
+ */
 function animateHeadline() {
-    console.log('animating...');
-    document.querySelector('#hero .animated-header-wrapper.e-animated').classList.add('e-hide-highlight');
+    animateHeadlineOff();
     setTimeout(() => {
-        document.querySelector('#hero .animated-header-wrapper.e-animated.e-hide-highlight').classList.remove('e-hide-highlight');
+        animateHeadlineOn();
     }, 1500)
+}
+function animateHeadlineOn() {
+    document.querySelector('#hero .animated-header-wrapper.e-animated.e-hide-highlight').classList.remove('e-hide-highlight');
+}
+function animateHeadlineOff() {
+    document.querySelector('#hero .animated-header-wrapper.e-animated').classList.add('e-hide-highlight');
 }
 
