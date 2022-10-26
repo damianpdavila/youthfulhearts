@@ -1413,8 +1413,21 @@ footer#colophon a {
   opacity: 0;
   transition: all 1.5s;
 }
+.reveal-in-viewport.slideFromLeft {
+  transform: translateX(-200%);
+}
+.reveal-in-viewport.slideFromRight {
+  transform: translateX(200%);
+}
+.reveal-in-viewport.slideFromTop {
+  transform: translateY(-200%);
+}
+.reveal-in-viewport.slideFromBottom {
+  transform: translateY(200%);
+}
 .reveal-in-viewport.reveal {
   opacity: 1;
+  transform: translateY(0%) translateX(0%);
 }
 
 /*--------------------------------------------------------------

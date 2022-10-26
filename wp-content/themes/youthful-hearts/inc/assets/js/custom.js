@@ -310,15 +310,20 @@ jQuery("form.lead-capture").submit(function (e) {
  */
 
 function revealInViewportAnimation() {
-    // attach intersection observer to any riv containers
+    // attach intersection observer to any RIVA containers
     let iobserver = new IntersectionObserver((entries) => {
         if (entries[0].isIntersecting === true) {
             revealInViewportAnimationElements(entries[0].target);
         }
     }, {threshold: 0.5})
 
-    iobserver.observe(document.querySelector('.reveal-in-viewport-container'))
+    rivaContainers = document.querySelectorAll('.reveal-in-viewport-container');
+
+    rivaContainers.forEach((rivaElem) => {
+        iobserver.observe(rivaElem);
+    })
 }
+
 function revealInViewportAnimationElements(container) {
     let elems = container.querySelectorAll('.reveal-in-viewport');
 
