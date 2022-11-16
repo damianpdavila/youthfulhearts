@@ -76,9 +76,9 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 						</div>
 						<div class="col">
 							<div class="site-info justify-content-center">
-								<a href="<?php bloginfo('url');  ?>/privacy/">Your Privacy</a>
+								<a href="<?php bloginfo('url');  ?>/privacy-policy/">Your Privacy</a>
 								<span class="sep">&nbsp;|&nbsp;</span>
-								<a href="<?php bloginfo('url');  ?>/terms/">Terms</a>
+								<a href="<?php bloginfo('url');  ?>/terms-of-use/">Terms</a>
 							</div><!-- close .site-info -->
 						</div>
 						<div class="col">

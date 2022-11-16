@@ -325,20 +325,25 @@ function revealInViewportAnimation() {
 }
 
 function revealInViewportAnimationElements(container) {
-    let elems = container.querySelectorAll('.reveal-in-viewport');
+    try {
+        let elems = container.querySelectorAll('.reveal-in-viewport');
 
-    elems.forEach((elem) => {
-        let delay = 0;
-        try {
-            delay = Number(elem.dataset.delay);
-        } catch (e) {
-            delay = 0;
-        }
-        
-        setTimeout(() => {
-            elem.classList.add('reveal');
-        }, delay)
-    })
+        elems.forEach((elem) => {
+            let delay = 0;
+            try {
+                delay = Number(elem.dataset.delay);
+            } catch (e) {
+                delay = 0;
+            }
+            
+            setTimeout(() => {
+                elem.classList.add('reveal');
+            }, delay)
+        })
+    
+    } catch (e) {
+        ;
+    }
 }
 
 
@@ -346,14 +351,17 @@ window.onload = function () {
 
     revealInViewportAnimation();
     
-    // Delay a bit before drawing initial highlight
-    setTimeout(() => {
-        animateHeadlineOn();
-    }, 1500);
-    // Iterate the highlighting
-    setInterval(() => {
-        animateHeadline();
-    }, 5000);
+    if (document.querySelector('.animated-header-wrapper.e-animated')) {
+        // Delay a bit before drawing initial highlight
+        setTimeout(() => {
+            animateHeadlineOn();
+        }, 1500);
+        // Iterate the highlighting
+        setInterval(() => {
+            animateHeadline();
+        }, 5000);
+
+    }
 }
 
 /**

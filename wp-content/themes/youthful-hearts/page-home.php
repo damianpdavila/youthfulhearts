@@ -101,22 +101,22 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 
                         <div class="form-step-1 row">
 
-                            <div class="form-field-group required w-50 col-6">
+                            <div class="form-field-group required col-12 col-md-6">
                                 <label for="inputFirstName" class="">
                                     First Name </label>
                                 <input size="1" type="text" name="First_Name" id="inputFirstName" class="" placeholder="Name" required="required" aria-required="true">
                             </div>
-                            <div class="form-field-group required w-50 col-6">
+                            <div class="form-field-group required col-12 col-md-6">
                                 <label for="inputLastName" class="">
                                     Last Name </label>
                                 <input size="1" type="text" name="Last_Name" id="inputLastName" class="" placeholder="Last Name" required="required" aria-required="true">
                             </div>
-                            <div class="form-field-group required w-50 col-6">
+                            <div class="form-field-group required col-12 col-md-6">
                                 <label for="inputPhone" class="">
                                     Phone </label>
                                 <input size="1" type="text" name="Primary_Phone" id="inputPhone" class="" placeholder="10 digit phone" required="required" aria-required="true" pattern="^([0-9(])?[0-9]{3}[^0-9]*[0-9]{3}[^0-9]*[0-9]{4}$">
                             </div>
-                            <div class="form-field-group required w-50 col-6">
+                            <div class="form-field-group required col-12 col-md-6">
                                 <label for="inputZip" class="">
                                     Zip Code </label>
                                 <input size="1" type="text" name="Zip" id="inputZip" class="" placeholder="Zip Code" required="required" aria-required="true" pattern="(^\d{5}$)|(^\d{9}$)|(^\d{5}-\d{4}$)">
@@ -131,12 +131,12 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                         </div>
                         <div class="form-step-2 row hidden">
 
-                            <div class="form-field-group required w-50 col-6">
+                            <div class="form-field-group required col-12 col-md-6">
                                 <label for="inputEmail" class="">
                                     Email </label>
                                 <input size="1" type="email" name="Email" id="inputEmail" class="" placeholder="Email Address" aria-required="true">
                             </div>
-                            <div class="form-field-group required w-50 col-6">
+                            <div class="form-field-group required col-12 col-md-6">
                                 <label for="inputDOB" class="">
                                     Date of Birth </label>
                                 <input size="1" type="date" name="DOB" id="inputDOB" class="" aria-required="true" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}">
@@ -602,7 +602,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                     </div>
                 </div>
             </a>
-            <p class="text-center"><small>Monday-Friday 9am-5:30pm ET</small></p>
+            <p class="text-center"><small>Monday-Friday 9am-6pm ET</small></p>
         </div>
 
 
@@ -687,22 +687,22 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 
                                     <div class="form-step-1 row">
 
-                                        <div class="form-field-group required w-50 col-6">
+                                        <div class="form-field-group required col-12 col-md-6">
                                             <label for="inputFirstName" class="">
                                                 First Name </label>
                                             <input size="1" type="text" name="First_Name" id="inputFirstName" class="" placeholder="Name" required="required" aria-required="true">
                                         </div>
-                                        <div class="form-field-group required w-50 col-6">
+                                        <div class="form-field-group required col-12 col-md-6">
                                             <label for="inputLastName" class="">
                                                 Last Name </label>
                                             <input size="1" type="text" name="Last_Name" id="inputLastName" class="" placeholder="Last Name" required="required" aria-required="true">
                                         </div>
-                                        <div class="form-field-group required w-50 col-6">
+                                        <div class="form-field-group required col-12 col-md-6">
                                             <label for="inputPhone" class="">
                                                 Phone </label>
                                             <input size="1" type="text" name="Primary_Phone" id="inputPhone" class="" placeholder="10 digit phone" required="required" aria-required="true" pattern="^([0-9(])?[0-9]{3}[^0-9]*[0-9]{3}[^0-9]*[0-9]{4}$">
                                         </div>
-                                        <div class="form-field-group required w-50 col-6">
+                                        <div class="form-field-group required col-12 col-md-6">
                                             <label for="inputZip" class="">
                                                 Zip Code </label>
                                             <input size="1" type="text" name="Zip" id="inputZip" class="" placeholder="Zip Code" required="required" aria-required="true" pattern="(^\d{5}$)|(^\d{9}$)|(^\d{5}-\d{4}$)">
@@ -717,12 +717,12 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                                     </div>
                                     <div class="form-step-2 row hidden">
 
-                                        <div class="form-field-group required w-50 col-6">
+                                        <div class="form-field-group required col-12 col-md-6">
                                             <label for="inputEmail" class="">
                                                 Email </label>
                                             <input size="1" type="email" name="Email" id="inputEmail" class="" placeholder="Email Address" aria-required="true">
                                         </div>
-                                        <div class="form-field-group required w-50 col-6">
+                                        <div class="form-field-group required col-12 col-md-6">
                                             <label for="inputDOB" class="">
                                                 Date of Birth </label>
                                             <input size="1" type="date" name="DOB" id="inputDOB" class="" aria-required="true" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}">
@@ -806,7 +806,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 <section id="carrier-logos" class="py-3">
     <div class="container">
         <div class="row">
-            <h5 class="text-color-primary text-center mx-auto">We officer the <strong>best rates</strong> from only the <strong>top quality carriers:</strong></h5>
+            <h3 class="text-color-primary text-center mx-auto">We offer the <strong>best rates</strong> from only the <strong>top quality carriers:</strong></h3>
         </div>
         <div class="row reveal-in-viewport-container">
             <div class="logo col-xs col-md-3 reveal-in-viewport slideFromBottom" data-delay="200">
