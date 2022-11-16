@@ -37,7 +37,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                 .hero-image {
                     width: 100%;
                     height: 100%;
-                    background-image: url("https://youthful-hearts.org/wp-content/uploads/2022/08/happy-couple-riding-a-motorcycle-because-they-can-afford-their-medicare-advantage-premiums-rotated-1000x.jpg");
+                    background-image: url("<?php bloginfo('url'); ?>/wp-content/uploads/2022/08/happy-couple-riding-a-motorcycle-because-they-can-afford-their-medicare-advantage-premiums-rotated-1000x.jpg");
                     background-position: top center;
                     background-repeat: no-repeat;
                     background-size: cover;

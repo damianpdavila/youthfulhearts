@@ -32,7 +32,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                 .hero-image {
                     width: 100%;
                     height: 100%;
-                    background-image: url(/wp-content/uploads/2022/07/couple-searching-for-best-medicare-advantage-plan-on-laptop-at-desk-1200x.jpg);
+                    background-image: url(<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/couple-searching-for-best-medicare-advantage-plan-on-laptop-at-desk-1200x.jpg);
                     background-position: top center;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -49,7 +49,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
         <p class="sub-heading text-color-dark text-center">Our Licensed Insurance Agents are experts in Medicare Advantage, Part D, and other Medicare plans.</p>
         <div class="row mb-4">
             <div class="col-2 d-none d-sm-block" style="transform: rotate(85deg) scale(1.3) translate(-152px, 125px);">
-                <img width="300" height="300" src="/wp-content/uploads/2022/07/blue-curved-arrow-primary-300x300.png" class="" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/blue-curved-arrow-primary-300x300.png 300w, /wp-content/uploads/2022/07/blue-curved-arrow-primary-150x150.png 150w, /wp-content/uploads/2022/07/blue-curved-arrow-primary.png 512w" sizes="(max-width: 300px) 100vw, 300px">
+                <img width="300" height="300" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/blue-curved-arrow-primary-300x300.png" class="" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/blue-curved-arrow-primary-300x300.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/blue-curved-arrow-primary-150x150.png 150w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/blue-curved-arrow-primary.png 512w" sizes="(max-width: 300px) 100vw, 300px">
             </div>
             <!-- FORM START -->
             <?php
@@ -169,7 +169,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 
                 </form>
 
-                <img class="float-right" style="max-width: 150px;" src="<?= $url ?>/wp-content/uploads/2022/08/secure-ssl-encryption-badget-300x103.png" title="secure-ssl-encryption-badge" alt="secure-ssl-encryption-badge">
+                <img class="float-right" style="max-width: 150px;" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/08/secure-ssl-encryption-badget-300x103.png" title="secure-ssl-encryption-badge" alt="secure-ssl-encryption-badge">
             </div>
             <!-- FORM END -->
 
@@ -612,13 +612,13 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
         <h2 class="text-white">Savings in a few easy steps.</h2>
         <div class="row justify-content-around">
             <div class="image-container col-12 col-sm reveal-in-viewport" data-delay="200">
-                <img width="503" height="404" src="/wp-content/uploads/2022/07/step-1-questions.jpg" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/step-1-questions.jpg 503w, /wp-content/uploads/2022/07/step-1-questions-300x241.jpg 300w" sizes="(max-width: 503px) 100vw, 503px">
+                <img width="503" height="404" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/step-1-questions.jpg" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/step-1-questions.jpg 503w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/step-1-questions-300x241.jpg 300w" sizes="(max-width: 503px) 100vw, 503px">
             </div>
             <div class="image-container col-12 col-sm reveal-in-viewport" data-delay="700">
-                <img width="504" height="404" src="/wp-content/uploads/2022/07/step-2-rates.jpg" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/step-2-rates.jpg 504w, /wp-content/uploads/2022/07/step-2-rates-300x240.jpg 300w" sizes="(max-width: 504px) 100vw, 504px">
+                <img width="504" height="404" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/step-2-rates.jpg" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/step-2-rates.jpg 504w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/step-2-rates-300x240.jpg 300w" sizes="(max-width: 504px) 100vw, 504px">
             </div>
             <div class="image-container col-12 col-sm reveal-in-viewport"  data-delay="1200">
-                <img width="504" height="404" src="/wp-content/uploads/2022/07/step-3-choose.jpg" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/step-3-choose.jpg 504w, /wp-content/uploads/2022/07/step-3-choose-300x240.jpg 300w" sizes="(max-width: 504px) 100vw, 504px">
+                <img width="504" height="404" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/step-3-choose.jpg" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/step-3-choose.jpg 504w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/step-3-choose-300x240.jpg 300w" sizes="(max-width: 504px) 100vw, 504px">
             </div>
 
         </div>
@@ -755,7 +755,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 
                             </form>
 
-                            <img class="float-right" style="max-width: 150px;" src="<?= $url ?>/wp-content/uploads/2022/08/secure-ssl-encryption-badget-300x103.png" title="secure-ssl-encryption-badge" alt="secure-ssl-encryption-badge">
+                            <img class="float-right" style="max-width: 150px;" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/08/secure-ssl-encryption-badget-300x103.png" title="secure-ssl-encryption-badge" alt="secure-ssl-encryption-badge">
                         </div>
                         <!-- FORM END -->
 
@@ -810,16 +810,16 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
         </div>
         <div class="row reveal-in-viewport-container">
             <div class="logo col-xs col-md-3 reveal-in-viewport slideFromBottom" data-delay="200">
-                <img width="800" height="210" src="/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png 1024w, /wp-content/uploads/2022/07/Humana-Logo-Transparent-300x79.png 300w, /wp-content/uploads/2022/07/Humana-Logo-Transparent-768x202.png 768w, /wp-content/uploads/2022/07/Humana-Logo-Transparent.png 1140w" sizes="(max-width: 800px) 100vw, 800px">
+                <img width="800" height="210" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-300x79.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-768x202.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent.png 1140w" sizes="(max-width: 800px) 100vw, 800px">
             </div>
             <div class="logo col-xs col-md-3 reveal-in-viewport slideFromBottom" data-delay="600">
-                <img width="300" height="169" src="/wp-content/uploads/2022/07/Cigna-Logo-transparent-300x169.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/Cigna-Logo-transparent-300x169.png 300w, /wp-content/uploads/2022/07/Cigna-Logo-transparent-1024x576.png 1024w, /wp-content/uploads/2022/07/Cigna-Logo-transparent-768x432.png 768w, /wp-content/uploads/2022/07/Cigna-Logo-transparent-1536x864.png 1536w, /wp-content/uploads/2022/07/Cigna-Logo-transparent-2048x1152.png 2048w" sizes="(max-width: 300px) 100vw, 300px">
+                <img width="300" height="169" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-300x169.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-300x169.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-1024x576.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-768x432.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-1536x864.png 1536w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-2048x1152.png 2048w" sizes="(max-width: 300px) 100vw, 300px">
             </div>
             <div class="logo col-xs col-md-3 reveal-in-viewport slideFromBottom" data-delay="1200">
-                <img width="800" height="142" src="/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1024x182.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1024x182.png 1024w, /wp-content/uploads/2022/07/Mutual_of_Omaha-logo-300x53.png 300w, /wp-content/uploads/2022/07/Mutual_of_Omaha-logo-768x136.png 768w, /wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1536x273.png 1536w, /wp-content/uploads/2022/07/Mutual_of_Omaha-logo.png 1915w" sizes="(max-width: 800px) 100vw, 800px">
+                <img width="800" height="142" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1024x182.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1024x182.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-300x53.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-768x136.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1536x273.png 1536w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo.png 1915w" sizes="(max-width: 800px) 100vw, 800px">
             </div>
             <div class="logo col-xs col-md-3 reveal-in-viewport slideFromBottom" data-delay="1600">
-                <img width="509" height="99" src="/wp-content/uploads/2022/07/aetna-logo.png" class="attachment-large size-large" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/aetna-logo.png 509w, /wp-content/uploads/2022/07/aetna-logo-300x58.png 300w" sizes="(max-width: 509px) 100vw, 509px">
+                <img width="509" height="99" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo.png 509w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo-300x58.png 300w" sizes="(max-width: 509px) 100vw, 509px">
             </div>
 
         </div>

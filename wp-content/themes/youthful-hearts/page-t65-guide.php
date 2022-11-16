@@ -437,7 +437,7 @@ $guide_phone_lit = '(833) 578-5597';
 </style>
 <section id="t65-guide-content">
     <section id="cover-page" class="bg-featured d-flex pb-5 px-xl-3 position-relative" style="
-    background-image: url('/wp-content/themes/youthful-hearts/img/bg-kayak.jpg');
+    background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/bg-kayak.jpg');
     background-position: center center;
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -454,7 +454,7 @@ $guide_phone_lit = '(833) 578-5597';
             <div class="row">
                 <div class="col-12">
                     <div class="guide-logo px-5 pb-3">
-                        <img src="/wp-content/uploads/2022/08/logo-youthful-hearts-white-600x-transparent.png" />
+                        <img src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/08/logo-youthful-hearts-white-600x-transparent.png" />
                     </div>
                 </div>
                 <div class="col d-flex">
@@ -571,7 +571,7 @@ $guide_phone_lit = '(833) 578-5597';
                     </div>
                     <div class="callout d-none d-xl-block mt-5">
                         <div class="callout-title">
-                            <img src="/wp-content/themes/youthful-hearts/img/callout-still-have-questions.png" alt="Still Have Questions" class="img-fluid" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/callout-still-have-questions.png" alt="Still Have Questions" class="img-fluid" />
                         </div>
                         <div class="callout-border rounded">
                             <div class="bg-tertiary text-secondary rounded p-3">
@@ -617,7 +617,7 @@ $guide_phone_lit = '(833) 578-5597';
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="/wp-content/themes/youthful-hearts/img/page-1-header.jpg" alt="Page One" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/page-1-header.jpg" alt="Page One" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -683,7 +683,7 @@ $guide_phone_lit = '(833) 578-5597';
                     </div>
                 </div>
                 <div class="col-12">
-                    <img src="/wp-content/themes/youthful-hearts/img/coverage-options.png" alt="Medicare Coverage Options" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/coverage-options.png" alt="Medicare Coverage Options" class="img-fluid" />
                 </div>
             </div>
             <div class="col-12 pt-4">
@@ -699,7 +699,7 @@ $guide_phone_lit = '(833) 578-5597';
                 <div class="col-12 d-none d-xl-block">
                     <div class="callout get-started mt-4 mb-3">
                         <div class="callout-title">
-                            <img src="/wp-content/themes/youthful-hearts/img/callout-get-started.png" alt="Get Started" class="img-fluid" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/callout-get-started.png" alt="Get Started" class="img-fluid" />
                         </div>
                         <div class="callout-border rounded">
                             <div class="bg-tertiary text-secondary text-center rounded p-3">
@@ -732,7 +732,7 @@ $guide_phone_lit = '(833) 578-5597';
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="/wp-content/themes/youthful-hearts/img/page-2-header.jpg" alt="Page One" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/page-2-header.jpg" alt="Page One" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -860,7 +860,7 @@ $guide_phone_lit = '(833) 578-5597';
                             </p>
                         </div>
                         <div class="col-lg-6">
-                            <img src="/wp-content/themes/youthful-hearts/img/medicare-enrollment-periods.png" alt="Medicare Enrollment Periods" class="img-fluid" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/medicare-enrollment-periods.png" alt="Medicare Enrollment Periods" class="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -919,17 +919,17 @@ $guide_phone_lit = '(833) 578-5597';
             </div>
             <div class="row">
                 <div class="col-lg-6 pt-4">
-                    <img src="/wp-content/themes/youthful-hearts/img/prior-to-turning-65.png" alt="Prior to Turning 65" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/prior-to-turning-65.png" alt="Prior to Turning 65" class="img-fluid" />
                 </div>
                 <div class="col-lg-6 pt-4">
-                    <img src="/wp-content/themes/youthful-hearts/img/medicap-supplement-after-you-turn-65.png" alt="Medigap/Supplement After You Turn 65" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/medicap-supplement-after-you-turn-65.png" alt="Medigap/Supplement After You Turn 65" class="img-fluid" />
                 </div>
             </div>
             <div class="row pb-md-5">
                 <div class="col-12 d-none d-xl-block">
                     <div class="callout get-started mt-5">
                         <div class="callout-title">
-                            <img src="/wp-content/themes/youthful-hearts/img/callout-still-have-questions.png" alt="Get Started" class="img-fluid" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/callout-still-have-questions.png" alt="Get Started" class="img-fluid" />
                         </div>
                         <div class="callout-border rounded">
                             <div class="bg-tertiary text-secondary rounded p-3 pl-4">
@@ -975,7 +975,7 @@ $guide_phone_lit = '(833) 578-5597';
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="/wp-content/themes/youthful-hearts/img/page-3-header.jpg" alt="Page Three" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/page-3-header.jpg" alt="Page Three" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -992,7 +992,7 @@ $guide_phone_lit = '(833) 578-5597';
                         Advantage plan.
                     </p>
                     <p>
-                        <img src="/wp-content/themes/youthful-hearts/img/pie-chart-80-20.png" alt="Medicare Pie Chart" class="img-fluid float-xl" /><br class="d-block d-xl-none" />In
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/pie-chart-80-20.png" alt="Medicare Pie Chart" class="img-fluid float-xl" /><br class="d-block d-xl-none" />In
                         <span class="bold text-primary">blue</span>, the chart to the right
                         shows Original Medicare (Part A and Part B), which covers inpatient
                         hospital care, skilled nursing facility, hospice, lab tests, surgery,
@@ -1012,7 +1012,7 @@ $guide_phone_lit = '(833) 578-5597';
                         simple comparison guide for Medigap/Supplement and Medicare Advantage
                         before we dive deeper into each.
                     </p>
-                    <img src="/wp-content/themes/youthful-hearts/img/ms-ma-T65.png" alt="Medicare/Medigap Benefits" class="img-fluid pt-4 pb-5" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ms-ma-T65.png" alt="Medicare/Medigap Benefits" class="img-fluid pt-4 pb-5" />
                 </div>
             </div>
         </div>
@@ -1022,7 +1022,7 @@ $guide_phone_lit = '(833) 578-5597';
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="/wp-content/themes/youthful-hearts/img/page-4-header.jpg" alt="Page Four" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/page-4-header.jpg" alt="Page Four" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -1042,7 +1042,7 @@ $guide_phone_lit = '(833) 578-5597';
                         expenses, then Medigap/ Supplement plans are the best choice for you.
                     </p>
                     <h3 class="text-left text-primary">Medigap/Supplement Key Benefits:</h3>
-                    <img src="/wp-content/themes/youthful-hearts/img/medigap-plans-cover-T65-v2.png" alt="Medigap Plan Coverage" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/medigap-plans-cover-T65-v2.png" alt="Medigap Plan Coverage" class="img-fluid" />
                 </div>
             </div>
             <div class="row">
@@ -1114,7 +1114,7 @@ $guide_phone_lit = '(833) 578-5597';
                 <div class="col-xl-5">
                     <div class="callout mt-5 d-none d-xl-block">
                         <div class="callout-title">
-                            <img src="/wp-content/themes/youthful-hearts/img/callout-did-you-know.png" alt="Did You Know" class="img-fluid" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/callout-did-you-know.png" alt="Did You Know" class="img-fluid" />
                         </div>
                         <div class="callout-border rounded">
                             <div class="bg-tertiary text-secondary rounded p-3">
@@ -1157,7 +1157,7 @@ $guide_phone_lit = '(833) 578-5597';
                 <div class="col-12">
                     <div class="callout get-started mt-5 d-none d-xl-block">
                         <div class="callout-title">
-                            <img src="/wp-content/themes/youthful-hearts/img/callout-get-started-phone.png" alt="Get Started" class="img-fluid" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/callout-get-started-phone.png" alt="Get Started" class="img-fluid" />
                         </div>
                         <div class="callout-border rounded">
                             <div class="bg-tertiary text-secondary text-center rounded p-3">
@@ -1188,7 +1188,7 @@ $guide_phone_lit = '(833) 578-5597';
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="/wp-content/themes/youthful-hearts/img/page-5-header.jpg" alt="Page Five" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/page-5-header.jpg" alt="Page Five" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -1225,7 +1225,7 @@ $guide_phone_lit = '(833) 578-5597';
                     </ul>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-3 text-right">
-                    <img src="/wp-content/themes/youthful-hearts/img/seniors-medicare-part-c.jpg" alt="Medicare Part C" class="img-fluid rounded rounded-left seniors-img" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/seniors-medicare-part-c.jpg" alt="Medicare Part C" class="img-fluid rounded rounded-left seniors-img" />
                 </div>
             </div>
             <div class="row pt-5 pb-md-4">
@@ -1260,7 +1260,7 @@ $guide_phone_lit = '(833) 578-5597';
                 <div class="col-12">
                     <div class="callout get-started mt-5 d-none d-xl-block">
                         <div class="callout-title">
-                            <img src="/wp-content/themes/youthful-hearts/img/callout-medicare-lis-program.png" alt="Medicare Low Income Savings Program" class="img-fluid" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/callout-medicare-lis-program.png" alt="Medicare Low Income Savings Program" class="img-fluid" />
                         </div>
                         <div class="callout-border rounded">
                             <div class="bg-tertiary text-secondary text-left rounded p-3">
@@ -1322,7 +1322,7 @@ $guide_phone_lit = '(833) 578-5597';
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="/wp-content/themes/youthful-hearts/img/page-6-header.jpg" alt="Page Six" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/page-6-header.jpg" alt="Page Six" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -1350,15 +1350,15 @@ $guide_phone_lit = '(833) 578-5597';
                         </li>
                         <li>Whether you qualify for help with Medicare costs</li>
                     </ul>
-                    <img src="/wp-content/themes/youthful-hearts/img/medicare-costs.png" alt="Medicare Costs" class="img-fluid pt-4 d-none d-xl-block" />
-                    <img src="/wp-content/themes/youthful-hearts/img/medicare-costs-mobile.png" alt="Medicare Costs" class="img-fluid pt-4 d-xl-none" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/medicare-costs.png" alt="Medicare Costs" class="img-fluid pt-4 d-none d-xl-block" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/medicare-costs-mobile.png" alt="Medicare Costs" class="img-fluid pt-4 d-xl-none" />
                 </div>
             </div>
             <div class="row pb-md-5">
                 <div class="col-12">
                     <div class="callout get-started mt-5 d-none d-xl-block">
                         <div class="callout-title">
-                            <img src="/wp-content/themes/youthful-hearts/img/callout-call-us-today.png" alt="Call Us Today" class="img-fluid" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/callout-call-us-today.png" alt="Call Us Today" class="img-fluid" />
                         </div>
                         <div class="callout-border rounded">
                             <div class="bg-tertiary text-secondary text-left rounded p-3">
@@ -1419,7 +1419,7 @@ $guide_phone_lit = '(833) 578-5597';
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="/wp-content/themes/youthful-hearts/img/page-7-header.jpg" alt="Page Seven" class="img-fluid" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/page-7-header.jpg" alt="Page Seven" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -1532,7 +1532,7 @@ $guide_phone_lit = '(833) 578-5597';
                 <div class="col-lg-6 pb-4 pb-lg-0">
                     <div class="callout d-none d-xl-block">
                         <div class="callout-title">
-                            <img src="/wp-content/themes/youthful-hearts/img/callout-still-have-questions.png" alt="Still Have Questions" class="img-fluid" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/callout-still-have-questions.png" alt="Still Have Questions" class="img-fluid" />
                         </div>
                         <div class="callout-border rounded d-none d-xl-block">
                             <div class="bg-tertiary text-secondary rounded p-3">
@@ -1603,7 +1603,7 @@ $guide_phone_lit = '(833) 578-5597';
                 <div class="col-12">
                     <div class="callout get-started mt-3 d-none d-xl-block">
                         <div class="callout-title">
-                            <img src="/wp-content/themes/youthful-hearts/img/callout-get-started-phone.png" alt="Get Started" class="img-fluid" />
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/callout-get-started-phone.png" alt="Get Started" class="img-fluid" />
                         </div>
                         <div class="callout-border rounded">
                             <div class="bg-tertiary text-secondary text-center rounded p-3">
