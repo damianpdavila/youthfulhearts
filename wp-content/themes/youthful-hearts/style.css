@@ -498,6 +498,13 @@ a.page-scroller {
     display: inline-block;
     margin-top: 2rem;
 }
+@media screen and (max-width: 767px) {
+    #masthead .navbar-nav > li > a {
+        padding-bottom: 0.938rem;
+        padding-top: 0.938rem;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     body:not(.theme-preset-active) #page-sub-header h1 {
@@ -1272,12 +1279,8 @@ footer#colophon a {
         width: 8%;
     }
 }
-
-@media screen and (max-width: 767px) {
-    #masthead .navbar-nav > li > a {
-        padding-bottom: 0.938rem;
-        padding-top: 0.938rem;
-    }
+div#footer-nav {
+    margin-left: 1em;
 }
 /*--------------------------------------------------------------
 # Media Query
