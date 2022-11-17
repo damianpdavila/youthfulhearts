@@ -8,7 +8,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 
     <div class="col bg-color-primary">
         <div class="hero-content d-flex flex-column align-content-center align-items-center">
-            <h1 class="heading text-white">
+            <!-- <h1 class="heading text-white">
                 <span>Searching For An Alternative to Your </span>
                 <span class="animated-header-wrapper e-animated e-hide-highlight">
                     <span class="animated-header circle">Expensive</span>
@@ -17,6 +17,16 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                     </svg>
                 </span>
                 <span> Medicare Supplement Plan?</span>
+            </h1> -->
+            <h1 class="heading text-white">
+                <span>Looking For </span>
+                <span class="animated-header-wrapper e-animated e-hide-highlight">
+                    <span class="animated-header circle">Affordable</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+                        <path d="M325,18C228.7-8.3,118.5,8.3,78,21C22.4,38.4,4.6,54.6,5.6,77.6c1.4,32.4,52.2,54,142.6,63.7 c66.2,7.1,212.2,7.5,273.5-8.3c64.4-16.6,104.3-57.6,33.8-98.2C386.7-4.9,179.4-1.4,126.3,20.7"></path>
+                    </svg>
+                </span>
+                <span> Medicare Supplement Options in Your Area?</span>
             </h1>
             <h2 class="sub-heading text-white">Our experts will help you find the right plan by walking you through your options and comparing the top Medicare carriers and plans.</h2>
             <div class="button-container text-left">
@@ -45,8 +55,10 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 <section id="lead-form-top" class="container">
 
     <div class="cta-form d-flex flex-column">
-        <h2 class="heading text-center">Get Your <strong>FREE Personalized</strong> Medicare Advantage Comparison</h2>
-        <p class="sub-heading text-color-dark text-center">Our Licensed Insurance Agents are experts in Medicare Advantage, Part D, and other Medicare plans.</p>
+        <!-- <h2 class="heading text-center">Get Your <strong>FREE Personalized</strong> Medicare Advantage Comparison</h2> -->
+        <h2 class="heading text-center">Get Your <strong>FREE Personalized</strong> Medicare Supplement Comparison</h2>
+        <!-- <p class="sub-heading text-color-dark text-center">Our Licensed Insurance Agents are experts in Medicare Advantage, Part D, and other Medicare plans.</p> -->
+        <p class="sub-heading text-color-dark text-center">Our Licensed Agents are experts in Medicare options, coverage areas, and plan benefits.</p>
         <div class="row mb-4">
             <div class="col-2 d-none d-sm-block" style="transform: rotate(85deg) scale(1.3) translate(-152px, 125px);">
                 <img width="300" height="300" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/blue-curved-arrow-primary-300x300.png" class="" alt="" loading="lazy" srcset="/wp-content/uploads/2022/07/blue-curved-arrow-primary-300x300.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/blue-curved-arrow-primary-150x150.png 150w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/blue-curved-arrow-primary.png 512w" sizes="(max-width: 300px) 100vw, 300px">
@@ -288,7 +300,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 <section id="freedom-banner" class="row no-gutters">
     <div class="overlay"></div>
     <div class="container">
-        <div class="col col-sm-7 p-5">
+        <div class="col col-sm-8 p-5">
             <h2>freedom...</h2>
             <p>to enjoy <strong><em>your</em> </strong>life as <strong><em>you</em> </strong>want and not be held back by high insurance premiums</p>
         </div>
@@ -304,11 +316,12 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                 <div class="icon-text-headline-icon col-12 col-sm-2 text-color-accent outline-rounded">
                     <i class="far fa-star" aria-hidden="true"></i>
                 </div>
-                <div class="icon-text-headline-text col-12 col-sm-10">
-                    <h2>Medicare Advantage Plans</h2>
-                    <div class="icon-text-headline-subhead">
+                <div class="icon-text-headline-text col-12 col-sm-10 d-flex align-items-center">
+                    <!-- <h2>Medicare Advantage Plans</h2> -->
+                    <h2>Medicare Supplement Plans</h2>
+                    <!-- <div class="icon-text-headline-subhead">
                         Get <strong class="text-color-accent">more benefits</strong> at a <strong class="text-color-accent">lower cost</strong> than Medicare Supplement Plans
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="icon-list">
@@ -316,17 +329,20 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                     <li class="icon-list-item">
                         <span class="icon-list-icon text-color-accent">
                             <i aria-hidden="true" class="fas fa-check"></i> </span>
-                        <span class="icon-list-text">Medicare Advantage includes all benefits and services covered under Parts A and B</span>
+                        <!-- <span class="icon-list-text">Medicare Advantage includes all benefits and services covered under Parts A and B</span> -->
+                        <span class="icon-list-text">Helps cover the 20% that Medicare parts A & B don’t cover.</span>
                     </li>
                     <li class="icon-list-item">
                         <span class="icon-list-icon text-color-accent">
                             <i aria-hidden="true" class="fas fa-check"></i> </span>
-                        <span class="icon-list-text">Medicare Advantage premiums are as low as $0 a month in most areas.</span>
+                        <!-- <span class="icon-list-text">Medicare Advantage premiums are as low as $0 a month in most areas.</span> -->
+                        <span class="icon-list-text">Nationwide coverage accepted by almost all doctors and hospitals.</span>
                     </li>
                     <li class="icon-list-item">
                         <span class="icon-list-icon text-color-accent">
                             <i aria-hidden="true" class="fas fa-check"></i> </span>
-                        <span class="icon-list-text">May include these additional benefits and more to enhance your overall health.</span>
+                        <!-- <span class="icon-list-text">May include these additional benefits and more to enhance your overall health.</span> -->
+                        <span class="icon-list-text">Additional benefits may be available to help enhance your overall health.</span>
                     </li>
                 </ul>
             </div>
@@ -477,7 +493,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                     </div>
                 </div>
             </div>
-            <div class="image-text-container col-12 col-sm">
+            <!-- <div class="image-text-container col-12 col-sm">
                 <div class="image-text">
                     <div class="image-text-image">
                         <svg class="icon-prescriptions btn-icon img-fluid" xmlns="http://www.w3.org/2000/svg" width="97.508" height="84.691" viewBox="0 0 97.508 84.691">
@@ -525,7 +541,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                         <p>Prescriptions</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="image-text-container col-12 col-sm">
                 <div class="image-text">
                     <div class="image-text-image">
@@ -583,7 +599,8 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 
 <section id="solid-banner" class="row no-gutters bg-color-dark">
     <div class="container">
-        <h1 class="text-white text-center py-2 mx-auto" style="line-height: 1.5;">We have Medicare Advantage Plan Options to Fit <span class="text-color-accent" style="font-weight: 900;">Your</span> Needs/Life</h1>
+        <!-- <h1 class="text-white text-center py-2 mx-auto" style="line-height: 1.5;">We have Medicare Advantage Plan Options to Fit <span class="text-color-accent" style="font-weight: 900;">Your</span> Needs/Life</h1> -->
+        <h1 class="text-white text-center py-2 mx-auto" style="line-height: 1.5;">We have Medicare Supplement Plan Options to Fit <span class="text-color-accent" style="font-weight: 900;">Your</span> Needs/Life</h1>
     </div>
 </section>
 
@@ -607,7 +624,8 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 
 
     </div>
-    <p class="font-primary text-color-dark" style="font-weight: 500;">Our Licensed experts will help you find the right plan by walking you through your options and comparing the top Medicare Advantage carriers and plans.</p>
+    <!-- <p class="font-primary text-color-dark" style="font-weight: 500;">Our Licensed experts will help you find the right plan by walking you through your options and comparing the top Medicare Advantage carriers and plans.</p> -->
+    <p class="font-primary text-color-dark" style="font-weight: 500;">Our Licensed experts will help you find the right plan by walking you through your options and comparing the top Medicare Supplement carriers and plans.</p>
     <div id="step-summary" class="bg-color-primary mb-3 reveal-in-viewport-container">
         <h2 class="text-white">Savings in a few easy steps.</h2>
         <div class="row justify-content-around">
@@ -808,7 +826,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
         <div class="row">
             <h3 class="text-color-primary text-center mx-auto">We offer the <strong>best rates</strong> from only the <strong>top quality carriers:</strong></h3>
         </div>
-        <div class="row reveal-in-viewport-container">
+        <!-- <div class="row reveal-in-viewport-container">
             <div class="logo col-xs col-md-3 reveal-in-viewport slideFromBottom" data-delay="200">
                 <img width="800" height="210" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-300x79.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-768x202.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent.png 1140w" sizes="(max-width: 800px) 100vw, 800px">
             </div>
@@ -819,6 +837,21 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                 <img width="800" height="142" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1024x182.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1024x182.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-300x53.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-768x136.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1536x273.png 1536w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo.png 1915w" sizes="(max-width: 800px) 100vw, 800px">
             </div>
             <div class="logo col-xs col-md-3 reveal-in-viewport slideFromBottom" data-delay="1600">
+                <img width="509" height="99" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo.png 509w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo-300x58.png 300w" sizes="(max-width: 509px) 100vw, 509px">
+            </div>
+
+        </div> -->
+        <div class="row reveal-in-viewport-container">
+            <!-- <div class="logo col-xs col-md-3 reveal-in-viewport slideFromBottom" data-delay="200">
+                <img width="800" height="210" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-300x79.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-768x202.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent.png 1140w" sizes="(max-width: 800px) 100vw, 800px">
+            </div> -->
+            <div class="logo col-xs col-md-4 reveal-in-viewport slideFromBottom" data-delay="600">
+                <img width="300" height="169" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-300x169.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-300x169.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-1024x576.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-768x432.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-1536x864.png 1536w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-2048x1152.png 2048w" sizes="(max-width: 300px) 100vw, 300px">
+            </div>
+            <div class="logo col-xs col-md-4 reveal-in-viewport slideFromBottom" data-delay="1200">
+                <img width="800" height="142" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1024x182.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1024x182.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-300x53.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-768x136.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1536x273.png 1536w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo.png 1915w" sizes="(max-width: 800px) 100vw, 800px">
+            </div>
+            <div class="logo col-xs col-md-4 reveal-in-viewport slideFromBottom" data-delay="1600">
                 <img width="509" height="99" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo.png 509w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo-300x58.png 300w" sizes="(max-width: 509px) 100vw, 509px">
             </div>
 

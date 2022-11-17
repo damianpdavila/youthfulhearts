@@ -29,8 +29,11 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 				<div class="row">
 					<div class="col-md-9">
 						<div class="footer-about">
-							<p>
+							<!-- <p>
 								Youthful Hearts helps beneficiaries explore Medicare options by providing information and resources related to Medicare Advantage, Medicare Supplement, and Prescription Drug plans. Youthful Hearts is not an insurance or operating company. Descriptions are for informational purposes only and subject to change. Insurance plans may not be available in all states. Youthful Hearts connects you with nationwide licensed agents committed to finding you the right plan that aligns with your lifestyle and wallet while meeting your health needs. Youthful Hearts is not affiliated with any insurance plan nor does it represent or endorse any plan. Youthful Hearts is not affiliated with or endorsed by the United States government or the federal Medicare program. By using this site, you acknowledge that you have read and agree to the Terms of Service and Privacy Policy.
+							</p> -->
+							<p>
+								Youthful Hearts helps beneficiaries explore Medicare options by providing information and resources related to Medicare Supplement plans. Youthful Hearts is not an insurance or operating company. Descriptions are for informational purposes only and subject to change. Insurance plans may not be available in all states. Youthful Hearts connects you with nationwide licensed agents committed to finding you the right plan that aligns with your lifestyle and wallet while meeting your health needs. Youthful Hearts is not affiliated with any insurance plan nor does it represent or endorse any plan. Youthful Hearts is not affiliated with or endorsed by the United States government or the federal Medicare program. By using this site, you acknowledge that you have read and agree to the Terms of Service and Privacy Policy.
 							</p>
 						</div>
 

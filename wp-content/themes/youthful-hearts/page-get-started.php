@@ -23,7 +23,8 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 </section>
 
 <section class="container mb-5">
-    <h3 class="font-primary text-color-dark" style="font-size: 25px; font-weight: 500; line-height: 1.5;">Our Licensed experts will help you find the right plan by walking you through your options and comparing the top Medicare Advantage carriers and plans.</h3>
+    <!-- <h3 class="font-primary text-color-dark" style="font-size: 25px; font-weight: 500; line-height: 1.5;">Our Licensed experts will help you find the right plan by walking you through your options and comparing the top Medicare Advantage carriers and plans.</h3> -->
+    <h3 class="font-primary text-color-dark" style="font-size: 25px; font-weight: 500; line-height: 1.5;">Our Licensed experts will help you find the right plan by walking you through your options and comparing the top Medicare Supplement carriers and plans.</h3>
 </section>
 
 <section id="lead-form-top" class="bg-color-primary row no-gutters">
@@ -272,7 +273,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
         <div class="row">
             <h3 class="text-color-primary text-center mx-auto">We offer the <strong>best rates</strong> from only the <strong>top quality carriers:</strong></h3>
         </div>
-        <div class="row reveal-in-viewport-container">
+        <!-- <div class="row reveal-in-viewport-container">
             <div class="logo col-xs col-md-3 reveal-in-viewport slideFromBottom" data-delay="200">
                 <img width="800" height="210" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-300x79.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-768x202.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent.png 1140w" sizes="(max-width: 800px) 100vw, 800px">
             </div>
@@ -286,7 +287,23 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                 <img width="509" height="99" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo.png 509w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo-300x58.png 300w" sizes="(max-width: 509px) 100vw, 509px">
             </div>
 
+        </div> -->
+        <div class="row reveal-in-viewport-container">
+            <!-- <div class="logo col-xs col-md-3 reveal-in-viewport slideFromBottom" data-delay="200">
+                <img width="800" height="210" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-1024x269.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-300x79.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent-768x202.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Humana-Logo-Transparent.png 1140w" sizes="(max-width: 800px) 100vw, 800px">
+            </div> -->
+            <div class="logo col-xs col-md-4 reveal-in-viewport slideFromBottom" data-delay="600">
+                <img width="300" height="169" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-300x169.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-300x169.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-1024x576.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-768x432.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-1536x864.png 1536w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Cigna-Logo-transparent-2048x1152.png 2048w" sizes="(max-width: 300px) 100vw, 300px">
+            </div>
+            <div class="logo col-xs col-md-4 reveal-in-viewport slideFromBottom" data-delay="1200">
+                <img width="800" height="142" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1024x182.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1024x182.png 1024w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-300x53.png 300w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-768x136.png 768w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo-1536x273.png 1536w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/Mutual_of_Omaha-logo.png 1915w" sizes="(max-width: 800px) 100vw, 800px">
+            </div>
+            <div class="logo col-xs col-md-4 reveal-in-viewport slideFromBottom" data-delay="1600">
+                <img width="509" height="99" src="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo.png" class="attachment-large size-large" alt="" loading="lazy" srcset="<?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo.png 509w, <?php bloginfo('url'); ?>/wp-content/uploads/2022/07/aetna-logo-300x58.png 300w" sizes="(max-width: 509px) 100vw, 509px">
+            </div>
+
         </div>
+
     </div>
 </section>
 

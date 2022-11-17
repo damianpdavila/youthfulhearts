@@ -1369,8 +1369,8 @@ footer#colophon a {
   -o-transition: 0.3s;
   transition: 0.3s;
   z-index: -1;
-  -webkit-animation: elementor-headline-dash forwards;
-  animation: elementor-headline-dash forwards;
+  -webkit-animation: headline-dash forwards;
+  animation: headline-dash forwards;
   -webkit-animation-duration: var(--animation-duration,1.2s);
   animation-duration: var(--animation-duration,1.2s);
   -webkit-animation-iteration-count: 1;
@@ -1410,7 +1410,26 @@ footer#colophon a {
       filter: blur(10px);
   }
 }
-
+@-webkit-keyframes headline-dash {
+    0% {
+        stroke-dasharray: 0 1500;
+        opacity: 1;
+    }
+    to {
+        stroke-dasharray: 1500 1500;
+        opacity: 1;
+    }
+  }
+  @keyframes headline-dash {
+    0% {
+        stroke-dasharray: 0 1500;
+        opacity: 1;
+    }
+    to {
+        stroke-dasharray: 1500 1500;
+        opacity: 1;
+    }
+  }
 .reveal-in-viewport {
   opacity: 0;
   transition: all 1.5s;
@@ -1481,7 +1500,7 @@ footer#colophon a {
 }
 @media (min-width: 992px) {
     #freedom-banner p {
-        font-size: 2vw;
+        font-size: clamp(25px, 2vw, 35px);
     }
 
     #freedom-banner h2 {
