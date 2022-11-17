@@ -73,7 +73,8 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
 
 
     </div>
-    <p class="font-primary text-color-dark" style="font-weight: 500;">Our Licensed experts will help you find the right plan by walking you through your options and comparing the top Medicare Advantage carriers and plans.</p>
+    <!-- <p class="font-primary text-color-dark" style="font-weight: 500;">Our Licensed experts will help you find the right plan by walking you through your options and comparing the top Medicare Advantage carriers and plans.</p> -->
+    <p class="font-primary text-color-dark" style="font-weight: 500;">Our Licensed experts will help you find the right plan by walking you through your options and comparing the top Medicare Supplement carriers and plans.</p>
 </section>
 
 <?php get_footer(); ?>
