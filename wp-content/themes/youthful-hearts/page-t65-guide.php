@@ -1215,7 +1215,7 @@ $guide_phone_lit = '(833) 578-5597';
                         <li>
                             Some plans include prescription drug coverage, while others do not
                         </li>
-                        <li>Usually limited to doctors in your plan's provider network</li>
+                        <li>May be limited to doctors in your plan's provider network</li>
                         <li>
                             Medigap/Supplement and Part C plans are different programs that
                             can't be combined
@@ -1350,8 +1350,8 @@ $guide_phone_lit = '(833) 578-5597';
                         </li>
                         <li>Whether you qualify for help with Medicare costs</li>
                     </ul>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/medicare-costs.png" alt="Medicare Costs" class="img-fluid pt-4 d-none d-xl-block" />
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/medicare-costs-mobile.png" alt="Medicare Costs" class="img-fluid pt-4 d-xl-none" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/medicare-costs-28nov2022.png" alt="Medicare Costs" class="img-fluid pt-4 d-none d-xl-block" />
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/medicare-costs-mobile-28nov2022.png" alt="Medicare Costs" class="img-fluid pt-4 d-xl-none" />
                 </div>
             </div>
             <div class="row pb-md-5">

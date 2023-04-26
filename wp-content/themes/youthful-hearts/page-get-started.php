@@ -144,7 +144,7 @@ $phone = get_theme_mod('contact_phone_setting') ? get_theme_mod('contact_phone_s
                             <div class="modal-dialog modal-full modal-dialog-centered text-center">
                                 <div class="modal-content">
                                     <div class="modal-body d-flex align-items-center justify-content-center">
-                                        <img src="<?= $loading_image_path ?>" alt="Loading...">
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loader-heart.gif" alt="Loading...">
                                     </div>
                                 </div>
                             </div>

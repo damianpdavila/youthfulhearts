@@ -315,7 +315,7 @@ function revealInViewportAnimation() {
         if (entries[0].isIntersecting === true) {
             revealInViewportAnimationElements(entries[0].target);
         }
-    }, {threshold: 0.5})
+    }, {threshold: 0.25})
 
     rivaContainers = document.querySelectorAll('.reveal-in-viewport-container');
 

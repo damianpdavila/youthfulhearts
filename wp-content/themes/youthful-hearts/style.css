@@ -1655,7 +1655,9 @@ div#footer-nav {
     margin-left: auto;
     margin-right: auto;
 }
-a.cta {
+a.btn,
+a.cta,
+a.cta:hover {
     text-decoration: none;
 }
 .cta-button {
